@@ -1,0 +1,2 @@
+After exporting the label of each image to Tensorflow Object Detection CSV format,
+To convert to YOLOv5 format, applying online tool availabel on website: https://roboflow.com/convert/tensorflow-object-detection-csv-to-yolov5-pytorch-txt
