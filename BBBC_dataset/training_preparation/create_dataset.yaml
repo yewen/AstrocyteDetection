@@ -1,0 +1,2 @@
+!echo -e 'train: /the/path/you/saved/training/datset\nval: /the/path/of/validation/dataset\n\nnc: 1\nnames: ['Astrocytes']' >> dataset.yaml
+!cat 'dataset.yaml'
