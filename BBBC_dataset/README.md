@@ -8,4 +8,4 @@ Hyperparameters were evolved with 300 generations and 10 epochs per generation w
 
 After hyperparameter evolve, we have training preparation manuscript including environment setup and training manuscript to launch training.
 
-The trained model including the best weights and hyperpapermeters are saved under "model".
+The trained model including the best weights and evolved hyperpapermeters are saved under "model".
