@@ -1,1 +1,1 @@
-python train.py --img 640 --batch 32 --epochs 300 --data dataset.yaml --optimizer Adam --hyp /the/path/to/evolved/hyp --weights yolov5s.pt --cfg models/yolov5s.yaml --name Astrocytes
+python train.py --img 1280 --batch 16 --epochs 300 --data dataset.yaml --optimizer Adam --weights yolov5s6.pt --hyp hyp_evolve.yaml  --cfg models/hub/yolov5s6.yaml --name AstrocytesDetection
