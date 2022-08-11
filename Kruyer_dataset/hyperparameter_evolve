@@ -1,0 +1,1 @@
+python train.py --img 640 --epochs 10 --data dataset.yaml --optimizer Adam --weights yolov5s.pt --cfg models/yolov5s.yaml --evolve --cache --name evolve

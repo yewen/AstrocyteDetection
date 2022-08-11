@@ -1,0 +1,20 @@
+## clone repo
+!git clone https://github.com/ultralytics/yolov5
+%cd yolov5
+
+## install
+pip install -r requirements.txt 
+
+
+## check PyTorch and GPU
+import torch
+from IPython.display import Image, clear_output  # to display images
+
+clear_output()
+print('Setup complete. Using torch %s %s' % (torch.__version__, torch.cuda.get_device_properties(0) if torch.cuda.is_available() else 'CPU'))
+
+
+## creat dataset.yaml
+!echo -e 'train: /path/to/a/directory/of/training/images\nval: /the/path/of/validation/dataset\n\nnc: 1\nnames: ['Astrocytes']' >> dataset.yaml
+!cat 'dataset.yaml'
+
