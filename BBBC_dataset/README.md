@@ -8,6 +8,6 @@ The first 783 images were used as training dataset, and the continuous 225 image
 
 Hyperparameters were evolved with 300 generations and 10 epochs per generation with Fitness Function as (0.5, 0.5, 0, 0). We excluded hyperparameters image mosaic, image mixup and image scale by setting to 0 the correponding hyperparameters.
 
-After hyperparameter evolve, we have training preparation manuscript including environment setup and training manuscript to launch training.
+After hyperparameter evolve, we have training preparation manuscript to set up environment and training manuscript to launch training.
 
 The trained model including the best weights and evolved hyperpapermeters are saved under "model".
